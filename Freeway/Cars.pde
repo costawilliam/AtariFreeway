@@ -20,7 +20,7 @@ class Cars{
       }     
     } 
     else{
-      x = x - (speed);
+      x = x + (speed);
       if (x < 50){
         x = 940;
       }       
