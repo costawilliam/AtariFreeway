@@ -1,5 +1,5 @@
 # AtariFreeway
-Um jogo clássico do Atari desenvolvido usando Processing para a disciplina de Computação Gráfica da Universidade Feevale, ministrada pelo professor João Batista Mossmann.
+Uma releitura do clássico Jogo do Atari desenvolvida usando Processing para a disciplina de Computação Gráfica da Universidade Feevale, ministrada pelo professor João Batista Mossmann.
 
 ## Sobre o jogo
 O jogo Freeway é um clássico do Atari. Sua mecânica é bastante simples e consiste em cruzar a avendida sem colidir com nenhum dos veículos.
