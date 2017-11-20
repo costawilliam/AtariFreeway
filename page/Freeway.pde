@@ -11,13 +11,13 @@ Cars[] cars = new Cars[11];
 
 void setup(){
   size(1100, 720);
-  Backgroud = loadImage("image/Backgroud.png");
-  Char= loadImage("image/Char.png");
-  Char2= loadImage("image/Char.png");
-  car0= loadImage("image/car0.png"); 
-  car1= loadImage("image/car1.png"); 
-  car2= loadImage("image/car2.png"); 
-  car3= loadImage("image/car3.png");
+  Backgroud = loadImage("page/image/Backgroud.png");
+  Char= loadImage("page/image/Char.png");
+  Char2= loadImage("page/image/Char.png");
+  car0= loadImage("page/image/car0.png"); 
+  car1= loadImage("page/image/car1.png"); 
+  car2= loadImage("page/image/car2.png"); 
+  car3= loadImage("page/image/car3.png");
 
   for (int i = 0; i < cars.length; i++ ) {
     int style = (int) random(0,4);
