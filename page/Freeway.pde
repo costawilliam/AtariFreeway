@@ -46,7 +46,10 @@ void draw() {
 
   textSize(48);
   fill(#9D0606);
-  text(level, 75, 42);
+  text("Level:", 75, 42);
+  text(level, 210, 42);
+  
+  text("Collisions:", 600, 42);
   text(collisions, 900, 42);
   image(Char2, 840, 0, Char2.width, Char2.height); 
 }
