@@ -21,14 +21,14 @@ class Cars{
 
     if (speed > 0){
       x = x + (speed);
-      if (x > 898){
+      if (x > 949){
         x = 50; 
       } 
     } 
     else{
       x = x + (speed);
       if (x < 50){
-        x = 940;
+        x = 949;
       } 
     } 
   }
@@ -49,4 +49,5 @@ class Cars{
         break;
     }
   }
+  
 }
