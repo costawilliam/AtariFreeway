@@ -54,7 +54,6 @@ void draw() {
 void keyPressed(){
   if (key == CODED) {
     if (keyCode == UP) {
-      println("UP"); 
       y = y - 51;
       if (y == 18){
         y = 46;
@@ -69,21 +68,18 @@ void keyPressed(){
       } 
     } 
     else if (keyCode == RIGHT) {
-      println("RIGHT"); 
       x = x + 51 ;
       if (x > 898){
         x = 949; 
       }
     }
     else if (keyCode == LEFT) {
-      println("LEFT");
       x = x - 51;
       if (x < 50){
         x = 50;
       } 
     } 
     else if (keyCode == DOWN) {
-      println("DOWN");    
       y = y + 51;
       if (y > 630){
         y = 630;
@@ -161,10 +157,8 @@ void collision(){
           break;
         default:
           retry++;         
-          println(retry);
           if(level_previous > level){
               retry = 0;
-
           }
           y = 630;
          
